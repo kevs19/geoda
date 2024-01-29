@@ -21,6 +21,14 @@
   justify-content: space-around;
 }
 
+#logoNavbar{
+  text-align: start;
+}
+
+.logoGeoda{
+  width: 10rem;
+}
+
 a{
   font-size: 2rem;
   text-decoration: none;
@@ -51,5 +59,9 @@ a:hover{
   padding-top: 1rem;
   display: flex;
   justify-content: space-around;
+}
+
+.logos{
+  width: 2rem;
 }
 
