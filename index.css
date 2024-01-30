@@ -9,3 +9,59 @@
     margin: 0;
 }
 
+#header{
+  position: relative;
+  background-color: var(--navbar-footer);
+  text-align: end;
+  color:white;
+}
+
+.navbar-nav{
+  display: flex;
+  justify-content: space-around;
+}
+
+#logoNavbar{
+  text-align: start;
+}
+
+.logoGeoda{
+  width: 10rem;
+}
+
+a{
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  
+}
+
+a:hover{
+  color: var(--dorado);
+  text-decoration-line: var(--dorado) ;
+}
+
+#main{
+  position: relative;
+  min-height: 100vh;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+#footer{
+  position: relative;
+  background-color: var(--navbar-footer);
+  text-align: center;
+  min-height: 5rem;
+}
+
+.redes{
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos{
+  width: 2rem;
+}
+
