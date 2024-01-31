@@ -1,0 +1,108 @@
+:root {
+    --navbar-footer:#024959;
+    --segundo-azul: #03658C;
+    --tercer-azul:#52A8F2;
+    --dorado:#D9A23D;
+  }
+
+*{
+    margin: 0;
+}
+
+#header{
+  position: relative!important;
+  background-color: var(--navbar-footer)!important;
+  text-align: end!important;
+  color:white!important;
+}
+
+#navbar-nav{
+  display: flex;
+  justify-content: space-around;
+}
+
+#logoNavbar{
+  text-align: start;
+}
+
+.logoGeoda{
+  width: 10rem;
+}
+
+a{
+  font-size: 1.5rem!important;
+  text-decoration: none!important;
+  color: white!important;
+  
+}
+
+a:hover{
+  color: var(--dorado)!important;
+  text-decoration-line: var(--dorado) !important;
+}
+
+#main{
+  position: relative;
+  min-height: 100vh;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+
+}
+
+#logoContacto{
+    align-items: center;
+    text-align: center;
+    width: 15rem;
+}
+
+#footer{
+  position: relative;
+  background-color: var(--navbar-footer);
+  text-align: center;
+  min-height: 5rem;
+}
+
+.redes{
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos{
+  width: 2rem;
+}
+
+/*Tablet*/
+/*Portrait*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+  .navbar{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+/*landscape*/
+@media (min0-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
+
+
+}
+/*fin tablet*/
+
+/*movil*/
+/*Portrait*/
+/*Default*/
+@media (max-width: 575.98px)and (orientation:portrait) {
+  .navbar{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+/*landscape*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
+
+
+}
+/*fin movil*/
