@@ -1,0 +1,78 @@
+#acerca{
+    text-align: center;
+    padding: 30px;
+    font-size: 3rem;
+    color: #024959;
+    font-family: 'IBM Plex Serif', serif;
+
+    
+}
+#logo{
+   margin: auto auto;
+    width: 450px;
+    padding: auto;
+    text-align: center;
+    align-content: center;
+    
+}
+
+
+#mision{
+    display: inline-block;
+    text-align: center;
+    margin: 30px 250px;
+    padding: 10px ;
+    border-radius: 0px;
+    width: 300px;
+    justify-content: center;
+    color: #D9A23D;
+    border: dotted 4px #52A8F2;
+    font-size: 0.9rem;
+    font-family: 'IBM Plex Serif', serif;
+    box-shadow: 6 7 8 #024959;
+    
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+}
+#vision{
+
+   display: inline-block;
+   text-align: center;
+    margin: auto  ;
+    padding: 10px;
+    border: #024959;
+    width: 300px;
+    border-radius: 250px;
+    background-color: #daeeff;
+    color: #D9A23D;
+    font-size: 1.2rem;
+    
+
+}
+
+#contenedor{
+    
+    margin: 10px auto;
+    width: 700px;
+    padding: 70px;
+    text-align: center;
+    align-content: center;
+    
+}
+
+#imgequipo{
+    width: 70px ;
+    height: 70px;
+    padding: 30px;
+    
+}
+
+#foto{
+    height: 30vh;
+    width: 30vh;
+    padding: 50px 250px;
+
+}
