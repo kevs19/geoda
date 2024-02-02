@@ -46,14 +46,42 @@ a:hover{
   min-height: 100vh;
   padding-top: 2em;
   padding-bottom: 2em;
-
+  background-color: var(--tercer-azul);
 
 }
 
 #logoContacto{
-    align-items: center;
+
+    height: 10rem;
+    width:100%;
     text-align: center;
-    width: 15rem;
+}
+
+.contenidoMain{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.ubicacion{
+  margin: 5rem;
+  width: 50%;
+}
+
+.ContactoRedes{
+  
+  border-radius: 1rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.Item{
+  width: 10rem;
+  height: 10rem;
+  color: var(--segundo-azul);
 }
 
 #footer{
