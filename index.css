@@ -1,3 +1,4 @@
+/* Declaracion de colores */
 :root {
     --navbar-footer:#024959;
     --segundo-azul: #03658C;
@@ -8,7 +9,7 @@
 *{
     margin: 0;
 }
-
+/* navbar */
 #header{
   position: relative!important;
   background-color: var(--navbar-footer)!important;
@@ -41,12 +42,35 @@ a:hover{
   text-decoration-line: var(--dorado) !important;
 }
 
+/* Contenido main */
+
 #main{
   position: relative;
-  min-height: 100vh;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  min-height: 74vh;
+  padding-top: 0;
+  padding-bottom: 0;
 }
+
+#banner1 {
+  margin:0;
+  height: 74vh;
+  background-image: url(./assets/puerto1.jpg);
+  object-fit: contain;
+  object-position: center;
+  text-align: center;
+}
+
+#banner2 {
+  height: 74vh;
+  background-image: url(./assets/puerto1.jpg);
+}
+
+#banner3 {
+  height: 74vh;
+  background-image: url(./assets/puerto1.jpg);
+}
+
+/* footer */
 
 #footer{
   position: relative;
