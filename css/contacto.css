@@ -1,3 +1,4 @@
+/* Declaracion de colores */
 :root {
     --navbar-footer:#024959;
     --segundo-azul: #03658C;
@@ -8,7 +9,7 @@
 *{
     margin: 0;
 }
-
+/* Navbar */
 #header{
   position: relative!important;
   background-color: var(--navbar-footer)!important;
@@ -41,12 +42,14 @@ a:hover{
   text-decoration-line: var(--dorado) !important;
 }
 
+/* Contenido main */
 #main{
   position: relative;
   min-height: 100vh;
   padding-top: 2em;
   padding-bottom: 2em;
-  background-color: var(--tercer-azul);
+background: #1BB2E9;
+background: linear-gradient(180deg, #1BB2E9, #09ec82);
 
 }
 
@@ -62,12 +65,12 @@ a:hover{
   flex-direction: row;
 
 }
-
+/* ubicacion maps */
 .ubicacion{
   margin: 5rem;
   width: 50%;
 }
-
+/* Redes */
 .ContactoRedes{
   
   border-radius: 1rem;
@@ -83,7 +86,7 @@ a:hover{
   height: 10rem;
   color: var(--segundo-azul);
 }
-
+/* footer */
 #footer{
   position: relative;
   background-color: var(--navbar-footer);
